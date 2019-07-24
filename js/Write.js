@@ -1,0 +1,1 @@
+document.write("仕事だるい");
