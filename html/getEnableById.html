@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!-- ここからHTMLを書く -->
+    <p id="demo">おはよう世界</p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello World'">挨拶！</button>
+</body>
+</html>
+
+
+<!-- document.getElementById('~~~').innerHTML = '~~~'; -->
+<!--
+     このコードで、
+     「id = '~~~'が指定されたHTML要素を検索し、要素のコンテンツ(innerHTML)を'~~~'に変える」
+     という処理が行われる。
+
+     上記のコードでは、ボタンを押した時にIDがdemoのHTML要素を探し出し、
+     表示されている文字をHello Worldに変更したものになる。
+-->
+
