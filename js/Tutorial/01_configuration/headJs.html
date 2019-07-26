@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script>
+        //関数をhead内に宣言、bodyで呼び出そう
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "関数呼び出した！"
+        }
+    </script>
+
+</head>
+<body>
+<!-- ここからHTMLを書く -->
+
+<h1>Web Page</h1>
+<p id="demo">関数呼び出してない</p>
+<button type="button" onclick="myFunction()">関数</button>
+
+</body>
+</html>
